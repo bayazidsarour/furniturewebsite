@@ -176,6 +176,68 @@ nav
     display: flex;
     align-items: center;
 }
+/* ==================================New navbar Start======================== */
+.navigation_bar
+{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: gupter;
+
+}
+.nav__logo 
+{
+  display: flex;
+  align-items: center;
+}
+.nav__logo__text
+{
+  font-size: 30px;
+    font-weight: 400;
+    margin-left: 10.14px;
+    font-family: gupter;
+}
+
+.nav_menu
+{
+  display: flex;
+  
+  margin-left: 170px;
+ 
+}
+.nav-item a
+{
+  color: var(--txt-color);
+  font-size: 17px;
+  font-family: gupter;
+  font-weight: 700;
+}
+
+.nav_menu ul
+{
+  gap: 45px;
+  
+}
+
+.right_side li a
+{
+  text-decoration: none;
+  color: var(--txt-color);
+  font-size: 35px;
+}
+.right_side li
+{
+  list-style: none;
+
+}
+
+.right_side ul
+{
+  display: flex;
+  gap: 33px;
+}
+/* ==================================New navbar end=================== */
 .logo h2
 {
     font-size: 30px;
