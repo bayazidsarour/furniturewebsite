@@ -4,4 +4,35 @@
     {
         width: 100%;
     }
+    .banner_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 103px;
+        width: 100%;
+    }
+    #banner .right_bananer img {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
