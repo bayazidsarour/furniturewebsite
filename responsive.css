@@ -4,6 +4,12 @@
     {
         width: 100%;
     }
+
+
+    #banner {
+        margin-top: 0px;
+    }
+    
     .banner_wrapper {
         display: flex;
         justify-content: space-between;
@@ -47,7 +53,13 @@
         letter-spacing: 2px;
         text-align: justify;
     }
-
+    #banner .banner_wrapper .left_bananer .buttons {
+        display: flex;
+        gap: 33px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 
