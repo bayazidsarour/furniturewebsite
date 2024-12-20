@@ -13,13 +13,40 @@
     #banner .right_bananer img {
         width: 100%;
     }
+    .banner_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 103px;
+        flex-direction: column;
+    }
 
+    .left_bananer {
+        width: 100%;
+        order: 2;
+    }
 
+    .left_bananer h2 {
+        width: auto;
+        font-size: 46px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: 4px;
+        color: #292019;
+        font-family: habibi;
+        margin-bottom: 42px;
+        text-align: center;
 
+    }
 
-
-
-
+    .left_bananer p {
+        width: auto;
+        font-family: habibi;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-align: justify;
+    }
 
 
 
