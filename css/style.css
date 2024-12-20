@@ -157,25 +157,7 @@
 
 /* =======================Header Start======================== */
 
-nav
-{
-  margin-top: 20px;
-}
 
-.nav_wrapper
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: gupter;
-    
-
-}
-.logo
-{
-    display: flex;
-    align-items: center;
-}
 /* ==================================New navbar Start======================== */
 .navigation_bar
 {
@@ -203,7 +185,7 @@ nav
 {
   display: flex;
   
-  margin-left: 170px;
+  margin-left: 200px;
  
 }
 .nav-item a
@@ -212,11 +194,28 @@ nav
   font-size: 17px;
   font-family: gupter;
   font-weight: 700;
+  position: relative;
 }
+.nav-item a::after
+{
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 0.4s;
 
+}
+.nav-item a:hover::after
+{
+  width: 100%;
+}
 .nav_menu ul
 {
-  gap: 45px;
+  gap: 30px;
   
 }
 
@@ -226,9 +225,20 @@ nav
   color: var(--txt-color);
   font-size: 35px;
 }
+.right_side li a .bin::after
+{
+  content: " ";
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -5px;
+}
 .right_side li
 {
   list-style: none;
+  position: relative;
 
 }
 
@@ -237,8 +247,17 @@ nav
   display: flex;
   gap: 33px;
 }
+
+.bg-light {
+  
+  background-color: rgba(255, 255, 255, 0)!important;
+}
+
+
+
+
 /* ==================================New navbar end=================== */
-.logo h2
+/* .logo h2
 {
     font-size: 30px;
     font-weight: 400;
@@ -329,7 +348,7 @@ background-color: red;
 position: absolute;
 top: -15px;
 }
-
+ */
 
 
 /* =====================header end======================== */
