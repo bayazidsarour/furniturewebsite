@@ -6,12 +6,49 @@
     display: flex;
     margin-left: 0px;
     flex-direction: column;
+    background-color: #bcbcbc32;
   }
 
   .right_side {
     order: 1;
     justify-content: space-between;
+    width: 100%;
+   
   }
+
+
+  .nav_menu ul {
+    gap: 6px;
+    order: 2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.nav_menu .right_side ul {
+    gap: 35px;
+    order: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .nav_menu ul {
     gap: 6px;
     order: 2;
