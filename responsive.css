@@ -27,7 +27,7 @@
     .banner_wrapper {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 103px;
+        padding-bottom: 0px;
         width: 100%;
     }
     #banner .right_bananer img {
@@ -36,7 +36,7 @@
     .banner_wrapper {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 103px;
+        padding-bottom: 0px;
         flex-direction: column;
     }
 
@@ -74,9 +74,6 @@
         justify-content: center;
         align-items: center;
     }
-
-
-
 
 
 
