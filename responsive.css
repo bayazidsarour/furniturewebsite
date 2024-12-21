@@ -302,10 +302,18 @@
     display: flex;
     gap: 10px;
     color: #B99272;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 
+.footer_nav{
+background-color: #bcbcbc32;
+}
+
+.copyright
+{
+    background-color: #bcbcbc32;
+}
 
 
 
