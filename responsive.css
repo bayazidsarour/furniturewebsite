@@ -181,7 +181,14 @@
     line-height: auto;
     margin-bottom: 34px;
 }
-
+.customer_say .right_side p {
+    width: 100%;
+    margin-bottom: 163px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
 
 
 
