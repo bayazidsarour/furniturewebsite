@@ -108,6 +108,19 @@
     width: 100%;
 
 }
+
+.products_bg .products_wrapper .right_products img {
+    margin-right: 0px;
+    width: 100%;
+   
+}
+.models .model_images {
+    display: flex;
+    margin-top: 54px;
+    margin-left: 0px;
+    flex-direction: column;
+}
+
 .products_head {
     width: 100%;
    margin-bottom: 40px;
@@ -247,7 +260,12 @@
     position: absolute;
     bottom: 0;
 }
-
+.footer_nav .icons {
+    display: flex;
+    gap: 10px;
+    color: #B99272;
+    flex-direction: column;
+}
 
 
 
