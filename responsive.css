@@ -131,9 +131,31 @@
     gap: 20px;
 }
 
+.products_gallery {
+    position: relative;
+    width: 100%;
+}
+.products_gallery .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 205px;
+    padding: 28px 0;
+    width: 100%;
+    flex-direction: column;
+}
 
+.products_gallery .boxes .box {
+    position: relative;
+    margin-bottom: 300px;
+}
 
-
+.products_gallery .boxes .box .price_bg {
+    width: 100%;
+    background-color: rgba(196, 165, 134, 63%);
+    position: relative;
+    text-align: center;
+    padding-bottom: 160px;
+}
 
 
 
