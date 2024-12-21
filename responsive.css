@@ -4,12 +4,26 @@
     {
         width: 100%;
     }
+    .nav_menu {
+        display: flex;
+        margin-left: 0px;
+        flex-direction: column;
+    }
 
-
+    .right_side
+    {
+        order: 1;
+        justify-content: space-between;
+    }
+    .nav_menu ul {
+        gap: 6px;
+        order: 2;
+      
+    }
     #banner {
         margin-top: 0px;
     }
-    
+
     .banner_wrapper {
         display: flex;
         justify-content: space-between;
