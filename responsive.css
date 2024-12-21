@@ -183,7 +183,7 @@
 }
 .customer_say .right_side p {
     width: 100%;
-    margin-bottom: 163px;
+    margin-bottom: 100px;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
@@ -191,12 +191,62 @@
 }
 
 
+.customer_say .right_side .customer_rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+}
+.models .model_images {
+    display: flex;
+    margin-top: 54px;
+    margin-left: 0px;
+   
+}
+.footer {
 
+    flex-direction: column;
+}
+.footer .left_side .business_email {
 
+    font-size: 11px;
+ 
+    width: 100%;
 
+}
+.footer .left_side
+{
+    text-align: center;
+    
+}
 
+.footer .right_side {
+    width: 100%;
+  
 
-
+}
+.footer .right_side .left-side {
+    position: relative;
+    order: 1;
+    width: 100%;
+}
+.footer .right_side {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    gap: 130px;
+}
+.footer .right_side .left-side .watch_videos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
 
 
 
