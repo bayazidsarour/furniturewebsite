@@ -138,7 +138,7 @@
 .products_gallery .boxes {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 205px;
+    margin-bottom: 0px;
     padding: 28px 0;
     width: 100%;
     flex-direction: column;
@@ -156,6 +156,41 @@
     text-align: center;
     padding-bottom: 160px;
 }
+
+.customer_say {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.customer_say .left_side {
+    width: 100%;
+}
+.customer_say .left_side img {
+    width: 100%;
+}
+.customer_say .right_side {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
