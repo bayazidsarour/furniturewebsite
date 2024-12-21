@@ -95,9 +95,41 @@
 
 }
 
+.products_bg .products_wrapper {
 
+    width: 100%;
+    flex-direction: column;
+}
+.products_bg .products_wrapper .left_products {
+    width: 100%;
 
+}
+.products_bg .products_wrapper .right_products {
+    width: 100%;
 
+}
+.products_head {
+    width: 100%;
+   margin-bottom: 40px;
+  
+  
+}
+.products_head .sells {
+
+    flex-direction: column;
+    width: 100%;
+}
+
+.products_head .sells .left_sells {
+    width: 100%;
+}
+.products_head .sells .right_sells {
+    width: 100%;
+}
+.products_head .sells .right_sells ul {
+    display: flex;
+    gap: 20px;
+}
 
 
 
